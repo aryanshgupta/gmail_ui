@@ -1,0 +1,81 @@
+name: gmail_ui
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dropdown_button2: ^2.3.9
+  url_launcher: ^6.2.4
+  flutter_popup: ^3.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Comic Sans MS
+      fonts:
+        - asset: assets/fonts/Comic Sans MS.ttf
+          weight: 400
+    - family: Fixed Width
+      fonts:
+        - asset: assets/fonts/Fixed Width.ttf
+          weight: 400
+    - family: Garamond
+      fonts:
+        - asset: assets/fonts/Garamond.ttf
+          weight: 400
+    - family: Georgia
+      fonts:
+        - asset: assets/fonts/Georgia.ttf
+          weight: 400
+    - family: Narrow
+      fonts:
+        - asset: assets/fonts/Narrow.ttf
+          weight: 400
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+    - family: Sans Serif
+      fonts:
+        - asset: assets/fonts/Sans Serif.ttf
+          weight: 400
+    - family: Serif
+      fonts:
+        - asset: assets/fonts/Serif.ttf
+          weight: 400
+    - family: Tahoma
+      fonts:
+        - asset: assets/fonts/Tahoma.ttf
+          weight: 400
+    - family: Trebuchet MS
+      fonts:
+        - asset: assets/fonts/Trebuchet MS.ttf
+          weight: 400
+    - family: Verdana
+      fonts:
+        - asset: assets/fonts/Verdana.ttf
+          weight: 400
+    - family: Wide
+      fonts:
+        - asset: assets/fonts/Wide.ttf
+          weight: 400
